@@ -6,9 +6,9 @@ fetch(urlToGet)
   .then(res => res.text())
   .then(fetchData => console.log('fetch', fetchData.length))
 ssrGet(urlToGet)
-  .then(asyncData => console.log('async', asyncData.length))
+  .then(phantomData => console.log('phantom', phantomData.length))
 
-async function ssrGet (url, verbose = false) {
+async function ssrGet(url, verbose = false) {
   try {
     if (verbose) console.info('Loading', url)
     const instance = await phantom.create([
