@@ -1,0 +1,16 @@
+{
+  "name": "phantom-demo",
+  "version": "1.0.0",
+  "description": "Demo code for a medium post about phantom",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.0.0",
+    "phantom": "^4.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midblue/phantom-demo.git"
+  },
+  "author": "Jasper Stephenson <jasperstephenson@gmail.com>",
+  "license": "MIT"
+}
